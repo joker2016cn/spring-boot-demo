@@ -26,6 +26,7 @@
         <logging.version>1.2</logging.version>
         <collections.version>3.2.2</collections.version>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
+        <spring.boot.maven.plugin>2.1.4.RELEASE</spring.boot.maven.plugin>
     </properties>
 
     <dependencyManagement>
@@ -83,4 +84,15 @@
         </dependencies>
     </dependencyManagement>
 
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <version>${spring.boot.maven.plugin}</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>
