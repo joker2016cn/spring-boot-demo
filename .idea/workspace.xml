@@ -615,12 +615,12 @@
     </configuration>
     <list>
       <item itemvalue="Application.product" />
+      <item itemvalue="Spring Boot.WebApplication" />
       <item itemvalue="JUnit.ProductMapperTest" />
       <item itemvalue="JUnit.ProductMapperTest.testGetOne" />
       <item itemvalue="JUnit.ProductMapperTest.testInsert" />
       <item itemvalue="JUnit.ProductMapperTest.testServiceInsert" />
       <item itemvalue="JUnit.ProductMapperTest.testServiceGetOne" />
-      <item itemvalue="Spring Boot.WebApplication" />
     </list>
     <recent_temporary>
       <list>
